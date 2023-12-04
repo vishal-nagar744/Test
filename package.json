@@ -15,6 +15,11 @@
     "electron": "^27.1.3",
     "electron-builder": "^24.9.1"
   },
+  "repository": "https://github.com/vishal-nagar744/Test",
+  "publisher": {
+    "provider": "github",
+    "releaseType": "release"
+  },
   "build": {
     "appId": "com.test.autoupdate",
     "productName": " AutoUpdate   Test",
@@ -37,6 +42,10 @@
     }
   },
   "dependencies": {
-    "electron-updater": "^6.1.7"
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.2",
+    "electron-updater": "^6.1.7",
+    "request": "^2.88.2",
+    "update-electron-app": "^3.0.0"
   }
 }
