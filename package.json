@@ -6,13 +6,13 @@
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "electron-builder"
+    "package": "electron-builder"
   },
   "keywords": [],
   "author": "Ujjawl Solanki",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^27.1.2",
+    "electron": "^27.1.3",
     "electron-builder": "^24.9.1"
   },
   "build": {
@@ -35,5 +35,8 @@
         "deb"
       ]
     }
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.7"
   }
 }

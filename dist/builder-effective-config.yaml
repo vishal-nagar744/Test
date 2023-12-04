@@ -1,0 +1,17 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.test.autoupdate
+productName: ' AutoUpdate   Test'
+win:
+  target: nsis
+mac:
+  target: dmg
+linux:
+  target:
+    - AppImage
+    - snap
+    - rpm
+    - deb
+files: []
+electronVersion: 27.1.3
