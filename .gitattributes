@@ -1,0 +1,5 @@
+dist/win-unpacked/ filter=lfs diff=lfs merge=lfs -text
+AutoUpdate filter=lfs diff=lfs merge=lfs -text
+Test.exe filter=lfs diff=lfs merge=lfs -text
+dist/win-unpacked/ filter=lfs diff=lfs merge=lfs -text
+dist/* filter=lfs diff=lfs merge=lfs -text

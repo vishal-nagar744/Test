@@ -1,17 +1,3 @@
-directories:
-  output: dist
-  buildResources: build
-appId: com.test.autoupdate
-productName: ' AutoUpdate   Test'
-win:
-  target: nsis
-mac:
-  target: dmg
-linux:
-  target:
-    - AppImage
-    - snap
-    - rpm
-    - deb
-files: []
-electronVersion: 27.1.3
+version https://git-lfs.github.com/spec/v1
+oid sha256:3de94e01bea2839ff40cfdadfb41c637f157eda83d44d4a8e2f7348bbaa9d475
+size 249

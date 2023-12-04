@@ -1,8 +1,3 @@
-version: 1.0.0
-files:
-  - url: '-AutoUpdate---Test-Setup-1.0.0.exe'
-    sha512: iqTLaOcB75OV71FRgOe2z6EpimFnSQawx2ro0Y7wRnjjewtRjUwukL2knCh0snJffuq4E6FpAiF6x4Qd6qrpdA==
-    size: 74554301
-path: '-AutoUpdate---Test-Setup-1.0.0.exe'
-sha512: iqTLaOcB75OV71FRgOe2z6EpimFnSQawx2ro0Y7wRnjjewtRjUwukL2knCh0snJffuq4E6FpAiF6x4Qd6qrpdA==
-releaseDate: '2023-12-04T13:06:25.303Z'
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c5e9565d4461f5945f2d29743cb9f2bb2cdb47a152cc6965b8870f01a9d92b9
+size 368
