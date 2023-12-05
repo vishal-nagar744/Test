@@ -6,7 +6,7 @@ const path = require('path');
 const updateFeed = 'https://github.com/vishal-nagar744/Test';
 
 // Set the update feed URL
-autoUpdater.setFeedURL({ url: updateFeed });
+autoUpdater.setFeedURL(updateFeed );
 autoUpdater.autoDownload = false;
 autoUpdater.checkForUpdates();
 
